@@ -20,7 +20,7 @@
 <body>
     <header class="container">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="container navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./icons/Logo.png" alt="" width="30" height="24">
@@ -36,13 +36,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#shoes">Product</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#our-benefits">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@
         </nav>
 
         <!-- top banner slider -->
-        <section class="my-5">
+        <section class="top-banner-margin custom-margin">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
@@ -65,7 +65,7 @@
                                     <span>Infinity Run</span>
                                 </h1>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, est.</p>
-                                <a href="#" class="btn btn-primary px-4 py-3">
+                                <a href="#shoes" class="btn btn-primary px-4 py-3">
                                     <i class="fa-solid fa-cart-shopping me-2"></i>BUY NOW
                                 </a>
                             </div>
@@ -74,7 +74,7 @@
                     <div class="carousel-item" data-bs-interval="3000">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12">
-                                <img src="images/top-banner-2.jpg" alt="top-banner-2">
+                                <img src="images/top-banner-2.png" alt="top-banner-2">
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <h1 class="display-3 text-uppercase fw-bold">
@@ -83,7 +83,7 @@
                                     <span>Infinity Run</span>
                                 </h1>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, est.</p>
-                                <a href="#" class="btn btn-primary px-4 py-3">
+                                <a href="#formal-shoes" class="btn btn-primary px-4 py-3">
                                     <i class="fa-solid fa-cart-shopping me-2"></i>BUY NOW
                                 </a>
                             </div>
@@ -92,7 +92,7 @@
                     <div class="carousel-item" data-bs-interval="3000">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12">
-                                <img src="images/top-banner-3.jpg" alt="top-banner-3">
+                                <img src="images/top-banner-3.png" alt="top-banner-3">
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <h1 class="display-3 text-uppercase fw-bold">
@@ -101,7 +101,7 @@
                                     <span>Infinity Run</span>
                                 </h1>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, est.</p>
-                                <a href="#" class="btn btn-primary px-4 py-3">
+                                <a href="#shoes" class="btn btn-primary px-4 py-3">
                                     <i class="fa-solid fa-cart-shopping me-2"></i>BUY NOW
                                 </a>
                             </div>
@@ -124,7 +124,7 @@
 
     <main class="container">
         <!-- casula shoes section -->
-        <section class="my-5">
+        <section class="custom-margin" id="shoes">
             <h1 class="mb-4 text-uppercase fw-bolder">Casual Shoes</h1>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
                 <!-- shoes 1 -->
@@ -188,7 +188,7 @@
         </section>
 
         <!-- formal shoes section -->
-        <section class="my-5">
+        <section class="custom-margin" id="formal-shoes">
             <h1 class="mb-4 text-uppercase fw-bolder">Formal Shoes</h1>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-4">
                 <!-- shoes 1 -->
@@ -246,9 +246,9 @@
         </section>
 
         <!-- our benefits section -->
-        <section class="mt-5">
+        <section class="custom-margin" id="our-benefits">
             <div class="row bg-secondary bg-opacity-25 rounded-5 shadow-lg p-4">
-                <div class="col-6 our-benefits-left-side">
+                <div class="colg-lg-6 col-md-6 col-12 order-lg-1 order-md-1 order-2 our-benefits-left-side">
                     <div class="d-flex my-5">
                         <img src="./icons/house.png" alt="">
                         <div class="ms-3">
@@ -271,14 +271,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 d-flex align-items-center">
+                <div class="colg-lg-6 col-md-6 col-12 order-lg-2 order-md-2 order-1 d-flex align-items-center">
                     <img class="our-benefits-right-side-img" src="./icons/service-banner.png" alt="">
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="text-center mt-5 mb-2">
+    <footer class="text-center mb-2">
         <p>&copy; 2022 - Developed by Ehsan</p>
     </footer>
 
