@@ -1,3 +1,12 @@
 .text-orange-color {
     color: rgb(226, 135, 31);
 }
+
+.our-benefits-left-side img {
+    width: 80px;
+    height: 80px;
+}
+
+.our-benefits-right-side-img {
+    width: 100%;
+}
